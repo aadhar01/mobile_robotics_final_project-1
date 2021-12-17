@@ -10,7 +10,7 @@ In your Turtlebot3, do the following:
 2. Install the ```apriltag_ros``` package for apriltag detection using ```sudo apt install ros-noetic-apriltag-ros```
 3. Install the ```raspicamnode``` package for raspberrypi camera control using the instructions from ```https://github.com/UbiquityRobotics/raspicam_node.git```
 4. Calibrate the camera by following the instructions from the same website.
-5. Source the ``catkin_ws``` using ```source devel/setup.bash```
+5. Source the ```catkin_ws``` using ```source devel/setup.bash```
 
 ```Execution:```
 Run ```roscore``` in your PC. Make sure to setup the ~/.bashrc file with the right IP address of the PC and TurtleBot3 and ```ROS_MASTER_URI``` and ```ROS_HOSTNAME``` as per the instructions from ```https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup``` 
